@@ -1,0 +1,25 @@
+{
+  "name": "what-to-eat-what-not-to-eat",
+  "version": "1.0.0",
+  "description": "Nutrition Info Downloader developed by Idea To Startup",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "csvtojson": "^1.1.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "prettier": "^1.7.4"
+  },
+  "scripts": {
+    "download": "babel-node src/download.js",
+    "merge": "babel-node src/merge.js",
+    "prettify": "prettier --single-quote --trailing-comma all --write 'src/**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "closed"
+}
